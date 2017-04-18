@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <h2>Join</h2>
+    <form class="" action="/account/register" method="post">
+      <input type="text" name="name" placeholder="Name">
+      <input type="text" name="email" placeholder="email@host.com">
+      <input type="password" name="password" placeholder="password">
+      <button>Submit</button>
+    </form>
+
+    <h2>Post a bookmark</h2>
+    <form class="" action="/api/bookmark" method="post">
+      <input type="text" name="title" placeholder="Title">
+      <input type="text" name="url" placeholder="post a url">
+      <input type="text" name="profile" placeholder="Profile">
+      <button>Submit</button>
+    </form>
+
+  </body>
+</html>
